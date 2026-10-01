@@ -1,0 +1,9 @@
+{
+  "name": "review-sparring",
+  "version": "0.1.0",
+  "description": "Treine code review com um mentor de IA: gera um projeto com defeitos escondidos, tira dúvidas sem entregar a resposta e revisa sua solução em rodadas.",
+  "author": {
+    "name": "Paulo"
+  },
+  "keywords": ["code-review", "training", "mentor", "java", "flutter"]
+}

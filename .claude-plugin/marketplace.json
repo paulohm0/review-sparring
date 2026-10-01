@@ -1,0 +1,14 @@
+{
+  "name": "review-sparring",
+  "description": "Laboratório de code review com mentor de IA (Claude).",
+  "owner": {
+    "name": "Paulo"
+  },
+  "plugins": [
+    {
+      "name": "review-sparring",
+      "source": "./",
+      "description": "Laboratório de code review com mentor de IA (Claude)."
+    }
+  ]
+}
