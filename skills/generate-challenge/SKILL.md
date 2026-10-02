@@ -19,7 +19,7 @@ Este texto e o restante da skill usam os rótulos em português: `easy` = FÁCIL
 
 - Se a dificuldade faltar, pergunte em uma linha curta.
 - Se a stack faltar, use `java-spring`.
-- Se não existir o arquivo `stacks/<stack>.md`, avise que não há pack para essa stack, liste os packs que existem e diga que o usuário pode criar um (formato em `stacks/_formato.md`, passo a passo no README). Só siga sem pack se o usuário pedir explicitamente: nesse caso monte você mesmo as seções do pack e avise que a qualidade é menos previsível.
+- Se não existir o arquivo `stacks/<stack>.md`, avise que não há pack para essa stack, liste os packs que existem e diga que o usuário pode criar um (o comando `/review-sparring:add-stack <nome>` guia a criação; o formato está em `stacks/_formato.md` e o passo a passo em `docs/add-a-stack.md`). Só siga sem pack se o usuário pedir explicitamente: nesse caso monte você mesmo as seções do pack e avise que a qualidade é menos previsível.
 
 ## Carregar o pack da stack
 

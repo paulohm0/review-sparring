@@ -23,3 +23,16 @@ Para criar uma stack nova, copie um pack existente e preencha **todas** as seç�
 - Cada item descreve o defeito e, entre parênteses, por que ele passa despercebido.
 - O catálogo é referência, não lista fechada: o plugin pode (e deve) variar além dele.
 - Marque o pack como `experimental` até alguém que trabalhe com a stack revisar o catálogo e gerar ao menos um desafio de ponta a ponta.
+
+## Checklist de revisão de um pack
+
+Use ao criar um pack e ao revisar um Pull Request que o adiciona:
+
+- [ ] As dez seções existem, com os títulos exatos.
+- [ ] Os comandos de build e teste foram **verificados** (ou estão marcados como "não verificados").
+- [ ] O catálogo tem itens **realistas** nos quatro níveis (FÁCIL, MÉDIO, DIFÍCIL, SÊNIOR), sem erro de sintaxe e sem itens vagos.
+- [ ] Falsos positivos: tem o parágrafo do princípio e exemplos marcados como inspiração.
+- [ ] Reproduzir um sintoma funciona sem emulador nem serviços externos, quando possível.
+- [ ] Nada foi copiado de outra stack por engano.
+- [ ] O status é `experimental`.
+- [ ] O autor gerou e revisou **ao menos um desafio completo** com o pack.
