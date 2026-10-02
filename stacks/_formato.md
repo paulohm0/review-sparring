@@ -35,4 +35,7 @@ Use ao criar um pack e ao revisar um Pull Request que o adiciona:
 - [ ] Reproduzir um sintoma funciona sem emulador nem serviços externos, quando possível.
 - [ ] Nada foi copiado de outra stack por engano.
 - [ ] O status é `experimental`.
+- [ ] **Segurança:** um pack é texto que o Claude segue como instrução, então ele só **descreve a stack** (comandos de build e teste, temas, defeitos) e nada além disso.
+- [ ] Os comandos são os esperados para a stack: nada de baixar e executar scripts de terceiros, acessar credenciais ou arquivos fora do projeto do desafio.
+- [ ] O pack não pede ao Claude para ignorar, contornar ou alterar as regras do plugin.
 - [ ] O autor gerou e revisou **ao menos um desafio completo** com o pack.
