@@ -159,13 +159,7 @@ git push -u origin stack/go-gin
 ```
 
 2. No GitHub, abra um Pull Request do seu fork para `paulohm0/review-sparring` (`main`). Na descrição, informe: a stack e as versões, como você testou, **qual desafio completo você gerou e revisou**, e o que você não conseguiu verificar.
-3. O PR é revisado como qualquer outro, pelo checklist de pack do [`_formato.md`](../stacks/_formato.md):
-   - as dez seções, com os títulos exatos;
-   - comandos de build e teste **verificados**;
-   - catálogo com defeitos reais, e não erros de sintaxe, em todos os níveis;
-   - falsos positivos com o princípio e exemplos;
-   - status `experimental`;
-   - nada copiado de outra stack por engano.
+3. O PR é revisado como qualquer outro, pelo checklist de pack do [`_formato.md`](../stacks/_formato.md). Confira o checklist **antes** de abrir o PR. As regras de contribuição estão no [CONTRIBUTING.md](../CONTRIBUTING.md).
 4. Quem mantém o plugin pode usar o próprio `/review-sparring:review-pr <número>` em uma cópia do repositório do plugin para revisar o pack (o comando reconhece PRs que só alteram `stacks/*.md`). Ajustes pedidos são feitos na mesma branch, com novos commits.
 
 O plugin **nunca faz push nem abre PR por você**: os comandos acima são seus, na sua conta.
