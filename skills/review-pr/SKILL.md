@@ -21,10 +21,6 @@ Nesta fase o sigilo muda um pouco: você **pode** dizer se as *mudanças do usu�
 
 Se a lista de defeitos não estiver na sua memória de trabalho, peça ao usuário para rodar `resume-challenge` antes.
 
-### Exceção: PR de pack de stack
-
-Se o PR **alterar apenas arquivos em `stacks/`** (e, no máximo, a tabela de stacks do `README.md`), ele não é um desafio: é a contribuição de um pack. Nesse caso **não** há lista de defeitos, task nem devolutiva com nota. Use o modo GitHub com as mesmas regras de segurança, mas revise o pack pelo checklist do fim de `stacks/_formato.md`: as dez seções com os títulos exatos, comandos de build e teste verificados, catálogo realista nos quatro níveis, falsos positivos com o princípio e exemplos, status `experimental` e nada copiado de outra stack. Marque cada ponto como **bloqueante** ou **sugestão**, poste a review com um veredito e avise no chat em 2 a 3 linhas.
-
 ## Modo GitHub
 
 ### Regras de segurança

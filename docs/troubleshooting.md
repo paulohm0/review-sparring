@@ -13,4 +13,4 @@
 | `gh` não autenticado | `gh auth login`. Só é necessário para abrir PRs pelo terminal com a sua conta. |
 | O PR saiu com a conta de revisão como autora | O PR foi aberto num terminal com o `GH_TOKEN` da revisão. Abra pelo site do GitHub ou por um terminal sem esse token. |
 | O Claude perdeu o contexto no meio do desafio | `/review-sparring:resume-challenge`. |
-| `add-stack` diz que você não está numa cópia local | Veja [add-a-stack.md](add-a-stack.md), passos 1 e 2. |
+| A stack que eu quero não existe | Peça por issue: [request-a-stack.md](request-a-stack.md). |

@@ -65,7 +65,6 @@ Todos têm o prefixo `/review-sparring:`.
 | `mentor` | nenhum | Modo mentor: responde dúvidas sem confirmar defeitos nem entregar a solução. |
 | `review-pr` | `[numero-do-pr]` | Com número: revisa o PR no GitHub. Sem número: entrevista e devolutiva no chat. |
 | `resume-challenge` | `[NNN]` | Reconstrói a lista de defeitos se a sessão for perdida e volta ao modo mentor. |
-| `add-stack` | `<nome-da-stack>` | Guia a criação de um pack para uma stack nova. |
 
 Detalhes, dificuldades e regras de cada comando: [docs/commands.md](docs/commands.md).
 
@@ -76,7 +75,7 @@ Detalhes, dificuldades e regras de cada comando: [docs/commands.md](docs/command
 | Java 21 + Spring Boot 3 + Maven | `java-spring` (padrão) | Java 21 (`java -version`) |
 | Flutter / Dart 3 | `flutter` | Flutter SDK (`flutter --version`) |
 
-Quer treinar em outra linguagem ou framework? Rode `/review-sparring:add-stack <nome>` e siga o guia: [docs/add-a-stack.md](docs/add-a-stack.md).
+Quer treinar em outra linguagem ou framework? [Abra um pedido de stack](https://github.com/paulohm0/review-sparring/issues/new?template=stack-request.yml): o mantenedor cria e avisa na issue. Passo a passo: [docs/request-a-stack.md](docs/request-a-stack.md).
 
 ## Revisão no GitHub com uma segunda conta
 
@@ -92,7 +91,7 @@ O guia completo, do zero (criar a conta, convidar, gerar o token, configurar e u
 | [docs/walkthrough.md](docs/walkthrough.md) | Passo a passo do primeiro desafio à devolutiva final |
 | [docs/pull-request-review.md](docs/pull-request-review.md) | Enviar o desafio, abrir o PR e pedir a revisão |
 | [docs/review-account.md](docs/review-account.md) | Segunda conta do GitHub: criação, convite, token e uso |
-| [docs/add-a-stack.md](docs/add-a-stack.md) | Adicionar uma stack nova e contribuir com ela |
+| [docs/request-a-stack.md](docs/request-a-stack.md) | Pedir uma stack nova por issue |
 | [docs/commands.md](docs/commands.md) | Referência completa dos comandos |
 | [docs/troubleshooting.md](docs/troubleshooting.md) | Problemas comuns |
 | [docs/limits-and-security.md](docs/limits-and-security.md) | Limitações e segurança |

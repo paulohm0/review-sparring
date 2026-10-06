@@ -26,7 +26,7 @@ Para criar uma stack nova, copie um pack existente e preencha **todas** as seç�
 
 ## Checklist de revisão de um pack
 
-Use ao criar um pack e ao revisar um Pull Request que o adiciona:
+Use ao criar um pack e ao revisá-lo antes de publicar:
 
 - [ ] As dez seções existem, com os títulos exatos.
 - [ ] Os comandos de build e teste foram **verificados** (ou estão marcados como "não verificados").

@@ -1,0 +1,32 @@
+name: Pedido de stack nova
+description: Peça uma linguagem ou framework que ainda não existe no review-sparring.
+title: "[Stack] "
+labels: ["stack-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado pelo pedido! O mantenedor cria a stack e avisa aqui quando ela for publicada.
+
+        Se já existir uma issue para a mesma stack, reaja com 👍 nela em vez de abrir outra.
+
+  - type: input
+    id: stack
+    attributes:
+      label: Linguagem e framework
+      description: O que você quer treinar.
+      placeholder: "Kotlin + Spring Boot"
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Versão (opcional)
+      placeholder: "Kotlin 2.0, JDK 21"
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Observações (opcional)
+      description: Comandos de build e de teste que você usa, defeitos típicos dessa stack que você já viu em code reviews, limitações (sistema operacional, Docker, emulador).
