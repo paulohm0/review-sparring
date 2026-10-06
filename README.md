@@ -74,6 +74,7 @@ Detalhes, dificuldades e regras de cada comando: [docs/commands.md](docs/command
 |---|---|---|
 | Java 21 + Spring Boot 3 + Maven | `java-spring` (padrão) | Java 21 (`java -version`) |
 | Flutter / Dart 3 | `flutter` | Flutter SDK (`flutter --version`) |
+| Kotlin Multiplatform | `kotlin-multiplatform` | JDK 17+ (`java -version`); o código é Kotlin |
 
 Quer treinar em outra linguagem ou framework? [Abra um pedido de stack](https://github.com/paulohm0/review-sparring/issues/new?template=stack-request.yml): o mantenedor cria e avisa na issue. Passo a passo: [docs/request-a-stack.md](docs/request-a-stack.md).
 

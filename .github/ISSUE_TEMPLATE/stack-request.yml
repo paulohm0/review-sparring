@@ -1,7 +1,7 @@
 name: Pedido de stack nova
 description: Peça uma linguagem ou framework que ainda não existe no review-sparring.
 title: "[Stack] "
-labels: ["stack-request"]
+labels: ["stack request"]
 body:
   - type: markdown
     attributes:
